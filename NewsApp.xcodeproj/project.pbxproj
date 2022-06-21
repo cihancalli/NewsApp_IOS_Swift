@@ -15,6 +15,7 @@
 		993C58E228624C0D0010E856 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993C58E028624C0D0010E856 /* LaunchScreen.storyboard */; };
 		993C58EA28624E550010E856 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993C58E928624E550010E856 /* NewsCell.swift */; };
 		993C58F0286261120010E856 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993C58EF286261120010E856 /* News.swift */; };
+		993C58F22862628B0010E856 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993C58F12862628B0010E856 /* WebService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		993C58E328624C0D0010E856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		993C58E928624E550010E856 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		993C58EF286261120010E856 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		993C58F12862628B0010E856 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		993C58EE286260F00010E856 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				993C58F12862628B0010E856 /* WebService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				993C58F22862628B0010E856 /* WebService.swift in Sources */,
 				993C58DA28624C080010E856 /* ViewController.swift in Sources */,
 				993C58D628624C080010E856 /* AppDelegate.swift in Sources */,
 				993C58EA28624E550010E856 /* NewsCell.swift in Sources */,
