@@ -16,6 +16,7 @@
 		993C58EA28624E550010E856 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993C58E928624E550010E856 /* NewsCell.swift */; };
 		993C58F0286261120010E856 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993C58EF286261120010E856 /* News.swift */; };
 		993C58F22862628B0010E856 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993C58F12862628B0010E856 /* WebService.swift */; };
+		993C58F52862680F0010E856 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993C58F42862680F0010E856 /* NewsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		993C58E928624E550010E856 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		993C58EF286261120010E856 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		993C58F12862628B0010E856 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		993C58F42862680F0010E856 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				993C58EE286260F00010E856 /* Service */,
-				993C58ED286257110010E856 /* ModelView */,
 				993C58EC2862570A0010E856 /* Model */,
+				993C58F3286267EA0010E856 /* ViewModel */,
 				993C58EB286257040010E856 /* View */,
 				993C58DB28624C080010E856 /* Main.storyboard */,
 				993C58DE28624C0D0010E856 /* Assets.xcassets */,
@@ -93,19 +95,20 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		993C58ED286257110010E856 /* ModelView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ModelView;
-			sourceTree = "<group>";
-		};
 		993C58EE286260F00010E856 /* Service */ = {
 			isa = PBXGroup;
 			children = (
 				993C58F12862628B0010E856 /* WebService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		993C58F3286267EA0010E856 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				993C58F42862680F0010E856 /* NewsViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +186,7 @@
 				993C58DA28624C080010E856 /* ViewController.swift in Sources */,
 				993C58D628624C080010E856 /* AppDelegate.swift in Sources */,
 				993C58EA28624E550010E856 /* NewsCell.swift in Sources */,
+				993C58F52862680F0010E856 /* NewsViewModel.swift in Sources */,
 				993C58F0286261120010E856 /* News.swift in Sources */,
 				993C58D828624C080010E856 /* SceneDelegate.swift in Sources */,
 			);
